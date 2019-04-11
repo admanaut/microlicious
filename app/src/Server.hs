@@ -13,7 +13,7 @@ api :: Proxy API
 api = Proxy
 
 server :: Server API
-server = images
+server = handler
 
 app :: Application
 app = serve api server
